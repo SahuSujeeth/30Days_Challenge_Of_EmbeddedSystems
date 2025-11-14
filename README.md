@@ -85,11 +85,13 @@ On Day 1, I explored the **fundamentals of embedded systems** — how hardware a
 > Excited to dive into **Arduino basics** tomorrow and start building hands-on circuits ⚡.
 
 ---
+......
 
 📅 **Date:** 10 November 2025  
 ✅ **Status:** Completed  
 🔗 **Detailed Notes:** [Notes.md](./Day01_IntroductionTo_EmbeddedSystems/Notes.md)
 
+<<<<<<< HEAD
 
 # 🔧 Day 2 — Memory Management + Arduino Basics (Button–LED with Tinkercad)
 
@@ -165,3 +167,6 @@ Link for the simulation to see output saved in:
 
 📅 **Date:** 11 November 2025  
 ✅ **Status:** Completed
+=======
+.....
+>>>>>>> bd31a5897a5705ecc388c2f332c4ebc0e21a3b71
