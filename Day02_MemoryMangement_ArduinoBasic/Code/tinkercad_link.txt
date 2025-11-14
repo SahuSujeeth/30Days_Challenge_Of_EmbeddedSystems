@@ -1,0 +1,6 @@
+These are the links for the Circuit and simulation and also code...You can simulate for the output for this u need to create account in tinkercad and then go with this link...
+1.Led interfacing with Arduino.
+https://www.tinkercad.com/things/6oILjpZsGwn-single-led-interfacing-with-arduino?sharecode=lKg71OOJP7azarauc1aEEKd7Qwe5NsAUSxppk_Eyo3g
+
+2.Led+Switch interfacing with Arduino.
+https://www.tinkercad.com/things/9T4bAwEvCKp-interfacing-switch-to-arduino?sharecode=NL05TYC1PR3I2vItGgmgiQB91FO3DAzgVYxa903Tlls

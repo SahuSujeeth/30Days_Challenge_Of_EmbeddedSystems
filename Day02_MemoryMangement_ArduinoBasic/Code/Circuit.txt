@@ -1,0 +1,24 @@
+Today’s Circuit – Button + LED with Two Resistors
+🎯 Goal
+
+Press button → LED turns ON
+
+Release button → LED turns OFF
+
+Use external pull-down resistor for stable input
+
+Use current limiting resistor for LED
+
+🧩 Components
+
+1 × Arduino UNO
+
+1 × LED
+
+1 × 220Ω resistor (LED current limiting)
+
+1 × 10kΩ resistor (button pull-down)
+
+1 × Push button
+
+Breadboard + jumper wires

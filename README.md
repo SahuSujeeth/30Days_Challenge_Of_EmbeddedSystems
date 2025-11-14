@@ -89,3 +89,79 @@ On Day 1, I explored the **fundamentals of embedded systems** — how hardware a
 📅 **Date:** 10 November 2025  
 ✅ **Status:** Completed  
 🔗 **Detailed Notes:** [Notes.md](./Day01_IntroductionTo_EmbeddedSystems/Notes.md)
+
+
+# 🔧 Day 2 — Memory Management + Arduino Basics (Button–LED with Tinkercad)
+
+---
+
+## 🧩 Overview
+
+On Day 2 of my **30 Days Embedded Systems with Arduino** challenge, I focused on both:
+
+- **Memory Management in Embedded Systems** (Flash, SRAM, EEPROM, segments)
+- **Arduino Basics** (digital I/O, pin modes, simple input/output circuit)
+
+I then built and tested a **Button-controlled LED circuit** using **two resistors**, both in **Tinkercad simulation** and on real hardware.
+
+---
+
+## 📚 Topics Covered
+
+- Memory Types in Microcontrollers:
+  - Flash (program storage)
+  - SRAM (runtime variables, stack)
+  - EEPROM (persistent small data)
+- Memory Segments:
+  - Code/Text, .data, .bss, stack, heap
+- Arduino UNO Memory Overview:
+  - 32 KB Flash, 2 KB SRAM, 1 KB EEPROM
+- Arduino Sketch Basics:
+  - `setup()` and `loop()`
+- Digital Input & Output:
+  - `pinMode()`, `digitalRead()`, `digitalWrite()`
+- Button with Pull-Down Resistor
+- LED with Current-Limiting Resistor
+- Using **Tinkercad** for circuit simulation
+
+---
+
+## 🔌 Circuit Summary
+
+### 🔹 LED:
+- Anode (long leg) → **Arduino Pin 12**  
+- Cathode (short leg) → **220Ω resistor → GND**
+
+### 🔹 Button (with 10kΩ Pull-Down):
+- One side of button → **5V**  
+- Other side → **Arduino Pin 2**  
+- Same row as pin 2 → **10kΩ resistor → GND**
+
+### 🧠 Behavior
+
+| Button | Pin 2 Reads | LED |
+|--------|-------------|-----|
+| Not Pressed | LOW | OFF |
+| Pressed | HIGH | ON |
+
+---
+
+## 🧪 Tinkercad Simulation
+
+I used **Tinkercad** to:
+
+- Build the same circuit virtually  
+- Test button + LED behavior  
+- Verify the code before/alongside hardware
+
+Link for the simulation to see output saved in:
+👉 [tinkercad_link.txt](./Day02_MemoryMangement_ArduinoBasic/Code/tinkercad_link.txt)
+
+
+---
+
+📄 **Detailed Notes:**  
+👉 [Notes.md](./Day02_MemoryMangement_ArduinoBasic/Notes.md)
+
+📅 **Date:** 11 November 2025  
+✅ **Status:** Completed
