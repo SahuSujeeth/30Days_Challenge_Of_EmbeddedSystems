@@ -1,0 +1,9 @@
+These are the links for the simulations and also code..
+1.Buzzer interfacing
+https://www.tinkercad.com/things/5GacEBB9bCL-buzzer-interfacing-with-arduino?sharecode=TMbZbeDbuyqigb_BdXcEce1zn4FfZR85hRzh1ryZgvk
+2.Led and buzzer interfacing.
+https://www.tinkercad.com/things/5qA25J3hUxJ-leds-buzzer-interfacing-with-arduino?sharecode=GC5DkPZ_usaRbzVcI1buWuxPBKEmBaBRUoWoLi1JkPg
+3.Switch interfacing
+https://www.tinkercad.com/things/9T4bAwEvCKp-interfacing-switch-to-arduino?sharecode=NL05TYC1PR3I2vItGgmgiQB91FO3DAzgVYxa903Tlls
+4.Slide switch interfacing with arduino.
+https://www.tinkercad.com/things/4t1jfifHUTt-slide-switch-interfacing-with-arduino
