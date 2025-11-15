@@ -264,8 +264,6 @@ This helped connect **input (switch)** with **output (sound)** — forming real 
 
 I used a **passive buzzer**, which allowed sound frequency changes using:
 
-```cpp
-tone(pin, frequency);
 
 ---
 
