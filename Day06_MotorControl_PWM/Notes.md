@@ -30,40 +30,37 @@ Brushless DC Motors (BLDC): Unlike brushed motors, BLDC motors utilize electroni
 ## Motor Driver ICs: Controlling DC Motors:
 To control the speed and direction of DC motors, motor driver integrated circuits (ICs) are used. These ICs act as interfaces between the microcontroller or control system and the motor itself. They provide features such as current sensing, speed regulation, and protection mechanisms to ensure efficient and safe motor operation.
 
-Introduction to Servo Motors
+## Introduction to Servo Motors
 A servo motor is a rotary actuator designed to precisely control angular position. It consists of a motor coupled with a sensor for position feedback. Servo motors are commonly used in robotics, RC vehicles, and various applications requiring precise motion control.
 
-Key Features
+## Key Features
 Controlled by Pulse Width Modulation (PWM): The rotation angle is determined by the duration of the PWM pulse applied to the control wire.
 Range: Typically allows for rotation from 0 to 180 degrees, but some servos can rotate 360 degrees or more.
 Feedback Mechanism: Uses feedback to ensure accurate positioning.
 Interfacing a Servo Motor to Arduino
 To control a servo motor with Arduino, you need to send PWM signals to its control pin. The servo interprets these signals to rotate to the desired angle.
 
-Components Needed
+## Components Needed
 Arduino Board (e.g., Arduino UNO)
 Servo Motor
 Breadboard and Jumper Wires
 Power Supply (if needed for larger servos)
 
-Introduction to Pulse Width Modulation and Fading Using PWM
+## Introduction to Pulse Width Modulation and Fading Using PWM
 
-comments
 Pulse Width Modulation (PWM)
 Pulse Width Modulation (PWM) is a technique to generate analog-like signals using digital outputs. By rapidly toggling a digital pin between high (on) and low (off) states, PWM effectively simulates a range of voltage levels between 0V and the supply voltage (e.g., 5V for Arduino UNO). This modulation creates a square wave where the duty cycle (the proportion of time the signal is high in each period) determines the average voltage level.
 
-How PWM Works
+## How PWM Works
 Square Wave Generation: PWM produces a square wave that alternates between high and low states. The proportion of time spent in the high state is the "pulse width."
 Duty Cycle: The duty cycle is the ratio of the pulse width to the total period of the wave. A 50% duty cycle means the signal is high for half the period and low for the other half.
 Frequency: PWM frequency is the number of times the signal completes one on-off cycle per second. In Arduino, the PWM frequency is approximately 500Hz, giving a period of 2 milliseconds.
 PWM for Analog Results
 By adjusting the duty cycle, PWM can simulate varying voltage levels. For example, a duty cycle of 50% can make an LED appear dimmer because the average power delivered is less than full-on. If the on-off cycling is fast enough, the LED appears to smoothly vary in brightness rather than blinking.
 
-Illustration of PWM
-The following image depicts PWM signals with different duty cycles:
-
-In the illustration:
-
+**Illustration of PWM**
+## The following image depicts PWM signals with different duty cycles:
+## In the illustration:
 The top signal has a 100% duty cycle (always on).
 The middle signal has a 50% duty cycle.
 The bottom signal has a 25% duty cycle.

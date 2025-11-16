@@ -1,0 +1,8 @@
+1.ADC in arduino
+https://www.tinkercad.com/things/1SkkvjAD4TX-adc-in-arduino?sharecode=5GWssByHlfKg_tXReh2I9fERqmf0rQcpepBsc8-DfMI
+2.DC motor interfacing with arduino
+https://www.tinkercad.com/things/cJ2VmYSsD23-servo-motor-intrfacing-with-arduino?sharecode=hbd9dgz1eGDW8K_dZ2xU4AzwJMpwWq-eG4bYn9VtkxM
+3.Servo motor interfaicng with arduino
+https://www.tinkercad.com/things/cJ2VmYSsD23-servo-motor-intrfacing-with-arduino?sharecode=hbd9dgz1eGDW8K_dZ2xU4AzwJMpwWq-eG4bYn9VtkxM
+4.Servo motor and potentiometer.
+https://www.tinkercad.com/things/ee6w4TENDpU-servo-motor-and-potentiometer-with-arduino?sharecode=QTynvCWf0dFE3WD3OJUe28hvDzWODTIAQsCGYd9qwnk
