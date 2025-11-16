@@ -344,4 +344,125 @@ A keypad was interfaced to allow numeric and character input. Learned how matrix
 
 📅 Progress: **Day 05 Completed**
 
+# ⚙️ Day 06 — ADC, PWM & Motor Interfacing
+
+Today’s learning focused on understanding how Arduino handles **analog signals**, how motor control works, and how precise output control is achieved using **PWM and servo mechanisms.**
+
+---
+
+## 🎯 Topics Covered
+
+- Analog-to-Digital Conversion (ADC)
+- PWM (Pulse Width Modulation)
+- DC Motor Interfacing
+- Servo Motor Control
+- Using Analog Input (Potentiometer) to control output
+
+---
+
+## 1️⃣ ADC in Arduino
+
+ADC converts an **analog voltage (0–5V)** into a **digital value (0–1023)** so the Arduino can understand real-world sensor signals.
+
+Examples of where ADC is used:
+- Potentiometers
+- Temperature sensors
+- Light sensors (LDR)
+- Pressure sensors
+
+Key learning:
+- Analog signals are continuous.
+- Digital value depends on resolution (10-bit ADC in Arduino UNO).
+- Mapping analog values to meaningful output (speed, brightness, tone, angle).
+
+---
+
+## 2️⃣ PWM (Pulse Width Modulation)
+
+PWM is used to simulate analog output using digital pins by varying the ON/OFF time (duty cycle).
+
+Applications:
+- LED brightness control
+- Motor speed control
+- Buzzer tone variation
+- Servo internal control signal
+
+Concepts learned:
+- Duty cycle (%) determines output intensity
+- Arduino PWM resolution: **0–255**
+- Only PWM-supported pins (~ symbol) can be used
+
+---
+
+## 3️⃣ DC Motor Interfacing
+
+A DC motor cannot be connected directly to Arduino due to current requirements, so a motor driver (L293D or transistor/MOSFET) is required.
+
+Key learning points:
+- Controlling DC motor direction (CW/CCW)
+- Controlling speed using PWM
+- External power supply importance for motors
+
+Real-world examples:
+- Fans
+- Wheels in robotics
+- Conveyor systems
+
+---
+
+## 4️⃣ Servo Motor Control
+
+Servo motors allow precise angular movement (0–180 degrees).  
+Unlike DC motors, servos work based on **position control**, not continuous rotation.
+
+Learned:
+- Signal timing defines angle
+- Controlled using `servo.write(angle)` (conceptually)
+- Ideal for robotics joints, RC vehicles, robotic arms, and controlled movement systems
+
+---
+
+## 🔍 Practical Skills Gained
+
+✔ Reading analog values and understanding their meaning  
+✔ Mapping analog input to control hardware  
+✔ Adjusting motor speed using PWM  
+✔ Controlling servo angles smoothly  
+✔ Understanding power management and safety while working with motors  
+
+---
+
+## 🧠 Real-World Applications
+
+- Volume or speed control using a dial (potentiometer)
+- DIY fan speed controller
+- Motor-based automation projects
+- Servo-based mechanisms like robotic arms or servo-controlled locks
+- Smart control systems using sensor feedback
+
+---
+
+## 🛠 Files Included
+
+| File Type | Purpose |
+|-----------|---------|
+| Notes.md | Detailed technical explanation |
+| /images | Circuit diagrams |
+| /code | Examples for ADC, PWM, DC motor, and servos |
+| simulations/ | Tinkercad links (optional) |
+
+📄 Detailed Notes → `[Notes.md](./Day06_MotorControl_PWM/Notes.md)`  
+💻 Simulation Links → `simulations/tinkercad_links.txt`  
+👉 [tinkercad_link.txt](./Day06_MotorControl_PWM/Code/tinkercad_link.txt)
+🖼 Wiring Diagrams → `/images/`[iamges](./Day06_MotorControl_PWM/Images/)
+
+---
+
+## 📅 Status
+
+➡ **Day 06 Completed**  
+
+
+
+
 
