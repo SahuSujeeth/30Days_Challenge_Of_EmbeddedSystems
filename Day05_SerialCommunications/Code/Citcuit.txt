@@ -1,0 +1,45 @@
+📌 Day 05 – Circuit Summary
+
+1️⃣ UART Serial Communication
+--------------------------------
+A basic wiring setup where the Arduino communicates with the computer using the Serial USB connection. 
+No external wiring is required except the USB cable. Serial Monitor is used to view and debug system output.
+
+Purpose:
+- Test data communication between Arduino and PC
+- Observe text output and sensor values
+- Debug program flow in real time
+
+
+2️⃣ I²C Communication with LCD and Switch
+-----------------------------------------
+This circuit includes a 16x2 LCD module using the I²C interface (SDA → A4, SCL → A5).
+A push button is connected as an input to control LCD messages or trigger actions.
+
+Purpose:
+- Demonstrate I²C communication protocol
+- Show how multiple devices share the same two-wire bus
+- Display messages dynamically based on user input
+
+
+3️⃣ LCD Interfacing (Standalone Display Output)
+-----------------------------------------------
+A 16x2 LCD is connected to the Arduino using the I²C module. The display is initialized and used to print messages, values, or system status.
+
+Purpose:
+- Display text, values, and alerts without needing a computer
+- Understand cursor positioning and formatting on character displays
+- Learn how backlight and refresh behavior works
+
+
+4️⃣ Keyboard + LCD Interfacing (4×4 Matrix Keypad + LCD)
+---------------------------------------------------------
+A 4×4 matrix keypad is connected to Arduino for user input, and the LCD is used to display the key pressed. This circuit demonstrates interactive embedded input and output.
+
+Purpose:
+- Combine keypad input with visual display
+- Implement password entry or menu navigation UI
+- Build the base logic for real-world systems like PIN locks and control panels
+
+
+✔ These circuits together demonstrate how input (keypad/switch), processing (Arduino), and output (LCD/Serial) interact to form a complete embedded system.

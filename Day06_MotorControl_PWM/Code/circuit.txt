@@ -1,0 +1,53 @@
+Motor Driver L293D interfacing
+In this article, I will illustrate how you can connect the L293D motor driver IC to a microcontroller for controlling DC motors. We shall also look at the necessary components, and connections and give you some sample code to start with.
+
+Components Needed:
+Motor Driver IC L293D
+DC Motor(s)
+Arduino UNO R3
+Jumper Wires
+Breadboard
+Slide switch
+H bridge Motor Driver IC
+
+Step 1: Understanding L293D Pinout
+The 16 pins of the L293D motor driver IC have different functions. First, familiarize yourself with its pinout before proceeding.
+
+Step 2: Making Connections
+Connect the L293D motor driver IC to your microcontroller and DC motor(s) as follows:
+
+Steps3:
+Output 2 must be connected to the positive terminal of a specified motor.
+Connect the 5V supply to the positive row and ground to the negative row on the breadboard.
+Begin by connecting the L293D IC to the breadboard.
+Enable two pins for one motor by setting up the connections on the breadboard.
+Connect an input pin of the IC to a pin on the Arduino (e.g., pin 11) to control the motor in both directions using a switch.
+Connect the output pin of the IC to the motor, ensuring the negative terminal is connected.
+Connect another input of the IC to another Arduino pin (e.g., pin 10).
+Connect the positive terminal of the motor to output 2 of the IC.
+Provide two power supplies to the IC and connect four ground pins to the IC for setup with two motors.
+For the switch connection, use a three-pole switch: connect one pin to the positive terminal, another pin to the negative terminal, and the common pin to a pin on the Arduino (e.g., pin 2). This setup allows the motor to reverse direction when the switch is clicked.
+
+Step 3: Power Supply Connections
+Connect the power supply to the VCC1 and VCC2 pins of the L293D motor driver IC. Ensure that the voltage rating is suitable for your motors.
+Servo Motor interfacing and programming
+Servo motors are widely used in robotics and automation projects to control the position of objects with precision. In this tutorial, we'll demonstrate how to interface a servo motor with an Arduino Uno R3. You'll need a servo motor, a potentiometer (variable resistor), and a breadboard for this setup.
+
+Components Needed:
+1 x Arduino Uno R3
+1 x Servo motor
+1 x Potentiometer
+Breadboard and jumper wires
+Potentiometer :
+A potentiometer, often referred to as a pot, is a type of variable resistor with three terminals. It typically has a knob or slider that can be adjusted to change the resistance. By rotating or sliding the knob, you can change the output voltage or resistance level. In this project, we'll use a potentiometer to control the position of the servo motor.
+Power Supply:
+Connect the Arduino 5V pin to the positive rail of the breadboard.
+Connect the Arduino GND pin to the ground rail of the breadboard.
+Potentiometer:
+Connect one terminal of the potentiometer to the positive rail.
+Connect the other terminal to the ground rail.
+Connect the middle terminal of the potentiometer to Arduino analog pin A0.
+Servo Motor:
+Connect the positive (red) wire of the servo motor to the positive rail.
+Connect the negative (brown or black) wire of the servo motor to the ground rail.
+Connect the signal (control) wire (usually yellow or orange) of the servo motor to Arduino digital pin 9.
