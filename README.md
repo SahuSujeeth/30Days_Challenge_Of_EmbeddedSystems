@@ -461,6 +461,7 @@ Learned:
 ## 📅 Status
 
 ➡ **Day 06 Completed**  
+🔜 Next: Day 07 — Week-1 Reflection & LinkedIn Update
 
 
 
