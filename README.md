@@ -283,3 +283,65 @@ I used a **passive buzzer**, which allowed sound frequency changes using:
 ⏳ Progress: **4 / 30 Days Complete**  
 
 
+# 📟 Day 05 — Communication Interfaces, LCD Display & Keypad Input
+
+Today’s learning focused on how Arduino communicates with other devices and how external input/output interfaces help build user-interactive embedded systems.
+
+---
+
+## 🎯 Topics Covered
+
+- UART Serial Communication
+- LCD Interfacing (I2C 16x2 Display)
+- 4x4 Matrix Keypad Input System
+- Understanding Data Flow Between User, Display, and Controller
+
+---
+
+## 🔌 Serial Communication (UART)
+
+Serial communication allows Arduino to communicate with a computer or another device using TX/RX lines. Today, I worked with Serial Monitor to send and receive messages, observe data transfer, and practice basic debugging.
+
+---
+
+## 🖥️ LCD Display (16x2 with I2C)
+
+A 16x2 LCD was connected using the I2C communication protocol, reducing wiring complexity to just two pins (SDA & SCL). Functions like cursor movement, clearing display, and multi-line formatting were explored.
+
+---
+
+## ⌨️ 4×4 Matrix Keypad
+
+A keypad was interfaced to allow numeric and character input. Learned how matrix scanning works internally using rows and columns, and how keypad input can be used for passwords, menus, and system control.
+
+---
+
+## 🔍 Real-World Applications
+
+- Password-based locks
+- Menu navigation interfaces
+- Status message displays
+- Debugging and serial data logging
+- User-controlled embedded systems
+
+---
+
+## 🧠 Key Takeaways
+
+- UART enables communication between devices.
+- I2C protocol simplifies hardware connections.
+- Input (Keypad) + Output (LCD) + Controller (Arduino) = Complete Embedded Interaction System.
+- These peripherals form the basis of future systems such as security locks, dashboards, industrial panels, vending machines, and IoT user interfaces.
+
+---
+
+📄 Detailed Notes → **[Notes.md](./Day05_SerialCommunications/Notes.md)**  
+💻 Simulations → `simulations/tinkercad_links.txt`  
+👉 [tinkercad_link.txt](./Day05_SerialCommunications/Code/tinkercad_link.txt)
+🖼 Circuit Images → [images](./Day05_SerialCommunications/Images/)
+
+---
+
+📅 Progress: **Day 05 Completed**
+
+

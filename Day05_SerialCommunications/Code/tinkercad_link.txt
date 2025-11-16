@@ -1,0 +1,8 @@
+1.UART Serial communication.
+https://www.tinkercad.com/things/fBxemIdaG7e-uart-serial-communication?sharecode=ic_GFQsEPm-_KjDMgq9TDxhbv_NUE24kKjaOfGIycw0
+2.I2C communicationwith led and switch
+https://www.tinkercad.com/things/dm9JTkdoxoy-i2c-communication-with-led-and-switch?sharecode=-D-BgOmA_J6dmQ-1TGgIbUxdfiGN47CwSwGrthmLWqk
+3.lcd interfacing
+https://www.tinkercad.com/things/41gnNo9tjE6-lcd-interfacing?sharecode=FHBkxyiUxOh2uhOA3O_B9gQR1iac4NsMUtlKVbS0Upc
+4.keyboard and lcd interfacing
+https://www.tinkercad.com/things/fG7vXu4SlzL-keypad-and-lcd-interfacing-with-arduino?sharecode=55SLa2VQH8t9AzkjL5uJwxn0DRDI7LlEZhib0A84ccw
