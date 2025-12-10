@@ -484,8 +484,6 @@ Today’s learning focused on understanding how **hardware interrupts** work in 
 
 Example usage:
 
-```cpp
-attachInterrupt(digitalPinToInterrupt(2), handlerFunction, RISING);
 
 📄 Detailed Notes → `[Notes.md](./Day08_Interrupts%20_appilcations/Notes.md)`  
 💻 Simulation Links → `simulations/tinkercad_links.txt`  
@@ -733,13 +731,15 @@ Today was a key step toward building **automation and smart detection systems**.
 ---
 
 🗓️ **Status:** ✔ Completed  
-📄 Notes: `Notes.md`  
+📄 Notes: [Notes.md](./Day12_DigitalSensors/Notes.md)
 🧪 Simulation: `tinkercad_links.txt`.
+👉 [tinkercad_link.txt](./Day12_DigitalSensors/Code/Tinkercad.txt)
+🖼 Wiring Diagrams → `/images/`[iamges](./Day12_DigitalSensors/Images/)
 
 ---
 # 🔍 Day 13 — Revised all the sensors once again...
 
-
+  ---Day13 also completed....
 
 
 
